@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AMARAVATI INTERIOR DESIGNS</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="services.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AMARAVATI INTERIOR DESIGNS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span  class="menu">MENU</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="indexex.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servies.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="container">
+        <div class="row">
+            <div class="col-md-4">
+               <a href="imgbox.html"> <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a1.jpg"class="img-fluid clickable-image" alt="Image 3"> </a>
+            </div>
+             <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a2.jpg"class="img-fluid clickable-image" alt="Image 1">
+            </div>
+            <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a3.jpg" class="img-fluid clickable-image" alt="Image 3">
+            </div>
+             <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a4.jpg" class="img-fluid clickable-image" alt="Image 1">
+            </div>
+            <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a5.jpg"class="img-fluid clickable-image" alt="Image 2">
+            </div>
+            <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a6.jpg" class="img-fluid clickable-image" alt="Image 3">
+            </div>
+            
+            <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a7.jpg" class="img-fluid clickable-image" alt="Image 2">
+            </div>
+            <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a8.jpg" class="img-fluid clickable-image" alt="Image 3">
+            </div>
+             <div class="col-md-4">
+                <img src="C:\Users\drisala kumar\OneDrive\Documents\Desktop\mah1\imgs\bedroom\a9.jpg" class="img-fluid clickable-image" alt="Image 1">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.clickable-image').forEach((image, index) => {
+            image.addEventListener('click', () => {
+                window.location.href = `gallery.html?imageCount=${document.querySelectorAll('.clickable-image').length}`;
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

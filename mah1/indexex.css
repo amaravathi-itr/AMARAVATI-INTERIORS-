@@ -1,0 +1,155 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color:black ;
+
+}
+
+
+.navbar {
+    background-color:white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family:cursive ;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:cursive ;
+}
+}
+
+.navbar-brand:hover {
+    color: silver;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link.active {
+    
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    
+    color: silver;
+}
+
+
+.header {
+    text-align: center;
+    background-color: whitesmoke;
+    color: white;
+    padding: 50px 20px;
+}
+
+.header h5 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.menu{
+    color: silver;
+    
+}
+.container {
+    margin-top: 0px;
+}
+
+.clickable-image {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+.clickable-image {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    font-family:monospace ;
+    color: black;
+
+}
+.container  a {
+    color: black;
+    text-decoration: none;
+    size: 50%;
+}
+
+a:hover {
+    color:silver; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.services {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.services h2 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.container h2{
+    color: black;
+}
+.services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.services ul li {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.img-container {
+    text-align: center;
+    margin-bottom: 70px;
+max-width:auto;
+    height: auto;
+}
+
+.img-container img {
+    max-width:auto;
+    height: auto;
+    border-radius: 20px;
+     
+}
+.menu{
+    color: black;
+    
+}
